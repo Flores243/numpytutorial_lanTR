@@ -94,6 +94,21 @@ satir1 = np.split(satir1, 3)
 # satır1 i sütun olarak artan sıralama yaptık
 print(np.sort(satir1))
 
+# 5-  Alt Küme işlemleri
+
+
+dizi55 = np.random.randint(10,30, size=(5,5))
+dizi56 = np.array([[10,20,30],[40,50,60],[70,80,90]])
+print(dizi2)
+# altDizi = dizi[2:3, 2:3] # 5x5 matriste ortadaki değeri verir
+# altDizi = dizi[-1:, -1:]  # 5x5 matrisin son satırını verir
+liste5 = np.array([10,20,30])
+
+# print(dizi,"\n\n", altDizi)
+
+altDizi = dizi2[-1:, -1:]
+print(altDizi, dizi56.ndim, liste55.ndim)
+
 
 # dizi içinde 30 dan büyük ve 70 küçük sayıları gösteren python numpy programı yazınız
 
